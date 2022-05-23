@@ -7,10 +7,10 @@ px = 300
 py = 500
 
 ex = random.randint(45,450)
-ey = random.randint(45,400)
+ey = random.randint(45,300)
 
 ex2 = random.randint(45,450)
-ey2 = random.randint(45,400)
+ey2 = random.randint(45,300)
 
 SPEED = 0
 size = (600,600)
@@ -67,14 +67,14 @@ while True:
 
     if player.colliderect(inimigo):
         ex = random.randint(45,450)
-        ey = random.randint(45,400)
+        ey = random.randint(45,300)
         score += 1
         SPEED += 0.4
         song.play()
 
     if player.colliderect(inimigo2): 
         ex2 = random.randint(45,450)
-        ey2 = random.randint(45,400)
+        ey2 = random.randint(45,300)
         score += 1
         SPEED += 0.4
         song.play()
