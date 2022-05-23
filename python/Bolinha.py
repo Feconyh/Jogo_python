@@ -1,4 +1,3 @@
-from shutil import move
 import sys, pygame, random
 from pygame.locals import *
 
